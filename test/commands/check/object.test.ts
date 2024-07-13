@@ -1,7 +1,13 @@
+/*
+ * Copyright (c) 2023, salesforce.com, inc.
+ * All rights reserved.
+ * Licensed under the BSD 3-Clause license.
+ * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+ */
 import { TestContext } from '@salesforce/core/testSetup';
 import { expect } from 'chai';
 import { stubSfCommandUx } from '@salesforce/sf-plugins-core';
-import CheckObject from '../../../src/commands/check/object.js'
+import CheckObject from '../../../src/commands/check/object.js';
 
 describe('check object', () => {
   const $$ = new TestContext();
@@ -16,13 +22,13 @@ describe('check object', () => {
   });
 
   it('runs hello', async () => {
-    await CheckObject.run([])
+    await CheckObject.run([]);
     const output = sfCommandStubs.log
       .getCalls()
       .flatMap((c) => c.args)
       .join('\n');
     expect(output).to.include('hello world');
-  })
+  });
 
   it('runs hello with --json and no provided name', async () => {
     const result = await CheckObject.run([]);

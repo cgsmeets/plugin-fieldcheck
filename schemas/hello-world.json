@@ -12,10 +12,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "name",
-        "time"
-      ],
+      "required": ["name", "time"],
       "additionalProperties": false
     }
   }

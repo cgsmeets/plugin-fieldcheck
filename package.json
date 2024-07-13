@@ -54,6 +54,9 @@
     "topics": {
       "hello": {
         "description": "Commands to say hello."
+      },
+      "check": {
+        "description": "description for check"
       }
     },
     "flexibleTaxonomy": true
