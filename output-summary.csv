@@ -1,8 +1,0 @@
-Object, RefMetadataComponentId, RefMetadataComponentName, RefMetadataComponentNamespace, RefMetadataComponentType,Layout
-Account,00N0900000LrU3sEAF,CustomerPriority,ULTEST,CustomField,X
-Account,00N0900000LrU3uEAF,SLA,ULTEST,CustomField,X
-Account,00N0900000LrU3rEAF,Active,ULTEST,CustomField,X
-Account,00N0900000LrU3tEAF,NumberofLocations,ULTEST,CustomField,X
-Account,00N0900000LrU3xEAF,UpsellOpportunity,ULTEST,CustomField,X
-Account,00N0900000LrU3wEAF,SLASerialNumber,ULTEST,CustomField,X
-Account,00N0900000LrU3vEAF,SLAExpirationDate,ULTEST,CustomField,X
